@@ -14539,8 +14539,6 @@ spec:
                     - arn
                     - name
                     type: object
-                required:
-                - ingress
                 type: object
               albs:
                 items:
@@ -14586,8 +14584,6 @@ spec:
                       - fullName
                       - name
                       type: object
-                  required:
-                  - ingress
                   type: object
                 type: array
               availableReplicas:
